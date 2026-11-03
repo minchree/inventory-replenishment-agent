@@ -1,0 +1,286 @@
+d028 2025-01-29 SKU-A  HOLD     0  IP=200 >= S=175.2 (mu_P=141 + SS=34.7) | 5.7 days of cover
+d028 2025-01-29 SKU-B  ORDER  120  IP=90 < S=117.9 (mu_P=103 + SS=15.4, z=2.05, sigma_P=7.5) | gap 28, MOQ 120 binds | wait: +10.01u short ($250.30) >= $12.00 holding saved -> order
+d028 2025-01-29 SKU-C  HOLD     0  IP=30 >= S=20.4 (mu_P=7.6 + SS=12.7) | 43.3 days of cover
+d029 2025-01-30 SKU-A  ORDER   60  IP=160 < S=176.6 (mu_P=142 + SS=34.1, z=1.64, sigma_P=20.7) | gap 17, MOQ 60 binds | wait: +2.29u short ($3.44) >= $1.20 holding saved -> order
+d029 2025-01-30 SKU-B  HOLD     0  IP=197 >= S=117.7 (mu_P=103 + SS=15.1) | 15.4 days of cover
+d029 2025-01-30 SKU-C  HOLD     0  IP=26 >= S=24.6 (mu_P=11.3 + SS=13.3) | 25.4 days of cover
+d030 2025-01-31 SKU-A  ORDER   60  IP=172 < S=181.8 (mu_P=147 + SS=34.4, z=1.64, sigma_P=20.9) | gap 10, MOQ 60 binds | wait: +1.23u short ($1.85) >= $1.20 holding saved -> order
+d030 2025-01-31 SKU-B  HOLD     0  IP=184 >= S=117.5 (mu_P=103 + SS=14.7) | 14.3 days of cover
+d030 2025-01-31 SKU-C  ORDER   24  IP=20 < S=31.6 (mu_P=16.7 + SS=14.8, z=2.05, sigma_P=7.2) | gap 12, MOQ 24 binds | wait: +0.55u short ($21.85) >= $9.60 holding saved -> order
+d031 2025-02-01 SKU-A  HOLD     0  IP=191 >= S=182.9 (mu_P=149 + SS=33.8) | 5.1 days of cover
+d031 2025-02-01 SKU-B  HOLD     0  IP=174 >= S=115.3 (mu_P=101 + SS=14.8) | 13.8 days of cover
+d031 2025-02-01 SKU-C  HOLD     0  IP=43 >= S=30.7 (mu_P=16.2 + SS=14.5) | 29.3 days of cover
+d032 2025-02-02 SKU-A  ORDER   60  IP=150 < S=183.8 (mu_P=151 + SS=33.2, z=1.64, sigma_P=20.2) | gap 34, MOQ 60 binds | wait: +8.24u short ($12.36) >= $1.20 holding saved -> order
+d032 2025-02-02 SKU-B  HOLD     0  IP=162 >= S=114.6 (mu_P=100 + SS=14.5) | 13.0 days of cover
+d032 2025-02-02 SKU-C  HOLD     0  IP=39 >= S=33.6 (mu_P=18.9 + SS=14.7) | 22.6 days of cover
+d033 2025-02-03 SKU-A  DEFER    0  IP=180 < S=180.4 (mu_P=148 + SS=32.9, z=1.64, sigma_P=20.0) | gap 1, MOQ 60 binds | wait: +0.44u short ($0.66) < $1.20 holding saved, CSL_wait 0.948 >= floor 0.930 -> defer
+d033 2025-02-03 SKU-B  HOLD     0  IP=143 >= S=121.3 (mu_P=105 + SS=16.1) | 10.9 days of cover
+d033 2025-02-03 SKU-C  HOLD     0  IP=39 >= S=31.6 (mu_P=17.1 + SS=14.6) | 25.2 days of cover
+d034 2025-02-04 SKU-A  ORDER   60  IP=155 < S=175.9 (mu_P=143 + SS=33.2, z=1.64, sigma_P=20.2) | gap 21, MOQ 60 binds | wait: +3.35u short ($5.03) >= $1.20 holding saved -> order
+d034 2025-02-04 SKU-B  HOLD     0  IP=131 >= S=120.1 (mu_P=104 + SS=15.8) | 10.0 days of cover
+d034 2025-02-04 SKU-C  HOLD     0  IP=39 >= S=29.8 (mu_P=15.3 + SS=14.4) | 28.0 days of cover
+d035 2025-02-05 SKU-A  DEFER    0  IP=176 < S=176.7 (mu_P=144 + SS=32.6, z=1.64, sigma_P=19.8) | gap 1, MOQ 60 binds | wait: +0.45u short ($0.68) < $1.20 holding saved, CSL_wait 0.946 >= floor 0.930 -> defer
+d035 2025-02-05 SKU-B  HOLD     0  IP=120 >= S=118.4 (mu_P=103 + SS=15.7) | 9.3 days of cover
+d035 2025-02-05 SKU-C  HOLD     0  IP=39 >= S=28.1 (mu_P=13.8 + SS=14.3) | 31.1 days of cover
+d036 2025-02-06 SKU-A  ORDER   60  IP=141 < S=175.7 (mu_P=144 + SS=32.1, z=1.64, sigma_P=19.5) | gap 35, MOQ 60 binds | wait: +9.04u short ($13.56) >= $1.20 holding saved -> order
+d036 2025-02-06 SKU-B  ORDER  120  IP=105 < S=119.8 (mu_P=104 + SS=15.4, z=2.05, sigma_P=7.5) | gap 15, MOQ 120 binds | wait: +2.65u short ($66.19) >= $12.00 holding saved -> order
+d036 2025-02-06 SKU-C  DEFER    0  IP=33 < S=34.6 (mu_P=19 + SS=15.5, z=2.05, sigma_P=7.6) | gap 2, MOQ 24 binds | wait: +0.06u short ($2.33) < $9.60 holding saved, CSL_wait 0.968 >= floor 0.960 -> defer
+d037 2025-02-07 SKU-A  ORDER   60  IP=153 < S=181.2 (mu_P=149 + SS=32.7, z=1.64, sigma_P=19.9) | gap 29, MOQ 60 binds | wait: +5.85u short ($8.78) >= $1.20 holding saved -> order
+d037 2025-02-07 SKU-B  HOLD     0  IP=206 >= S=125.0 (mu_P=109 + SS=15.8) | 15.1 days of cover
+d037 2025-02-07 SKU-C  HOLD     0  IP=33 >= S=30.8 (mu_P=17.1 + SS=13.7) | 21.2 days of cover
+d038 2025-02-08 SKU-A  ORDER   60  IP=158 < S=190.0 (mu_P=156 + SS=34.3, z=1.64, sigma_P=20.9) | gap 33, MOQ 60 binds | wait: +7.14u short ($10.72) >= $1.20 holding saved -> order
+d038 2025-02-08 SKU-B  HOLD     0  IP=196 >= S=121.5 (mu_P=106 + SS=15.2) | 14.8 days of cover
+d038 2025-02-08 SKU-C  HOLD     0  IP=33 >= S=29.2 (mu_P=15.4 + SS=13.8) | 23.5 days of cover
+d039 2025-02-09 SKU-A  ORDER   60  IP=177 < S=190.6 (mu_P=157 + SS=34.1, z=1.64, sigma_P=20.7) | gap 14, MOQ 60 binds | wait: +1.76u short ($2.65) >= $1.20 holding saved -> order
+d039 2025-02-09 SKU-B  HOLD     0  IP=182 >= S=122.1 (mu_P=107 + SS=15.2) | 13.6 days of cover
+d039 2025-02-09 SKU-C  HOLD     0  IP=33 >= S=27.8 (mu_P=13.9 + SS=13.9) | 26.2 days of cover
+d040 2025-02-10 SKU-A  HOLD     0  IP=202 >= S=189.0 (mu_P=155 + SS=34.2) | 5.2 days of cover
+d040 2025-02-10 SKU-B  HOLD     0  IP=169 >= S=121.8 (mu_P=107 + SS=15.2) | 12.7 days of cover
+d040 2025-02-10 SKU-C  ORDER   24  IP=28 < S=32.7 (mu_P=18 + SS=14.7, z=2.05, sigma_P=7.1) | gap 5, MOQ 24 binds | wait: +0.14u short ($5.59) < $9.60 holding saved, but CSL_wait 0.919 < floor 0.960 -> order
+d041 2025-02-11 SKU-A  ORDER   60  IP=171 < S=185.7 (mu_P=152 + SS=34, z=1.64, sigma_P=20.6) | gap 15, MOQ 60 binds | wait: +1.95u short ($2.93) >= $1.20 holding saved -> order
+d041 2025-02-11 SKU-B  HOLD     0  IP=160 >= S=119.1 (mu_P=103 + SS=16) | 12.4 days of cover
+d041 2025-02-11 SKU-C  HOLD     0  IP=47 >= S=36.9 (mu_P=21.7 + SS=15.2) | 23.8 days of cover
+d042 2025-02-12 SKU-A  HOLD     0  IP=198 >= S=183.0 (mu_P=150 + SS=33.2) | 5.3 days of cover
+d042 2025-02-12 SKU-B  HOLD     0  IP=143 >= S=122.8 (mu_P=106 + SS=16.4) | 10.8 days of cover
+d042 2025-02-12 SKU-C  HOLD     0  IP=47 >= S=34.9 (mu_P=19.5 + SS=15.4) | 26.5 days of cover
+d043 2025-02-13 SKU-A  ORDER   60  IP=165 < S=181.3 (mu_P=148 + SS=33.3, z=1.64, sigma_P=20.2) | gap 17, MOQ 60 binds | wait: +2.26u short ($3.39) >= $1.20 holding saved -> order
+d043 2025-02-13 SKU-B  HOLD     0  IP=128 >= S=123.7 (mu_P=108 + SS=15.9) | 9.5 days of cover
+d043 2025-02-13 SKU-C  HOLD     0  IP=47 >= S=33.1 (mu_P=17.6 + SS=15.5) | 29.4 days of cover
+d044 2025-02-14 SKU-A  ORDER   60  IP=177 < S=185.3 (mu_P=152 + SS=32.9, z=1.64, sigma_P=20.0) | gap 9, MOQ 60 binds | wait: +1.06u short ($1.59) >= $1.20 holding saved -> order
+d044 2025-02-14 SKU-B  ORDER  120  IP=113 < S=124.9 (mu_P=109 + SS=15.9, z=2.05, sigma_P=7.8) | gap 12, MOQ 120 binds | wait: +1.47u short ($36.79) >= $12.00 holding saved -> order
+d044 2025-02-14 SKU-C  HOLD     0  IP=41 >= S=38.9 (mu_P=22.4 + SS=16.5) | 20.1 days of cover
+d045 2025-02-15 SKU-A  ORDER   60  IP=179 < S=195.5 (mu_P=160 + SS=35.1, z=1.64, sigma_P=21.4) | gap 17, MOQ 60 binds | wait: +2.26u short ($3.38) >= $1.20 holding saved -> order
+d045 2025-02-15 SKU-B  HOLD     0  IP=220 >= S=124.4 (mu_P=108 + SS=15.9) | 16.2 days of cover
+d045 2025-02-15 SKU-C  HOLD     0  IP=41 >= S=36.9 (mu_P=20.2 + SS=16.7) | 22.4 days of cover
+d046 2025-02-16 SKU-A  HOLD     0  IP=204 >= S=193.6 (mu_P=158 + SS=35.3) | 5.2 days of cover
+d046 2025-02-16 SKU-B  HOLD     0  IP=204 >= S=126.5 (mu_P=110 + SS=16.1) | 14.8 days of cover
+d046 2025-02-16 SKU-C  HOLD     0  IP=39 >= S=36.0 (mu_P=20.4 + SS=15.6) | 21.1 days of cover
+d047 2025-02-17 SKU-A  ORDER   60  IP=163 < S=192.7 (mu_P=159 + SS=33.8, z=1.64, sigma_P=20.5) | gap 30, MOQ 60 binds | wait: +6.27u short ($9.40) >= $1.20 holding saved -> order
+d047 2025-02-17 SKU-B  HOLD     0  IP=191 >= S=125.8 (mu_P=110 + SS=16.1) | 13.9 days of cover
+d047 2025-02-17 SKU-C  ORDER   24  IP=33 < S=41.4 (mu_P=24.9 + SS=16.5, z=2.05, sigma_P=8.0) | gap 9, MOQ 24 binds | wait: +0.35u short ($13.91) >= $9.60 holding saved -> order
+d048 2025-02-18 SKU-A  HOLD     0  IP=192 >= S=188.2 (mu_P=155 + SS=32.8) | 4.9 days of cover
+d048 2025-02-18 SKU-B  HOLD     0  IP=176 >= S=126.6 (mu_P=111 + SS=15.8) | 12.7 days of cover
+d048 2025-02-18 SKU-C  HOLD     0  IP=52 >= S=44.7 (mu_P=27.9 + SS=16.8) | 20.5 days of cover
+d049 2025-02-19 SKU-A  ORDER   60  IP=164 < S=183.0 (mu_P=151 + SS=31.9, z=1.64, sigma_P=19.4) | gap 20, MOQ 60 binds | wait: +2.93u short ($4.40) >= $1.20 holding saved -> order
+d049 2025-02-19 SKU-B  HOLD     0  IP=164 >= S=124.1 (mu_P=109 + SS=14.8) | 12.0 days of cover
+d049 2025-02-19 SKU-C  DEFER    0  IP=47 < S=47.5 (mu_P=30.6 + SS=16.9, z=2.05, sigma_P=8.2) | gap 1, MOQ 24 binds | wait: +0.05u short ($2.09) < $9.60 holding saved, CSL_wait 0.977 >= floor 0.960 -> defer
+d050 2025-02-20 SKU-A  ORDER   60  IP=172 < S=189.8 (mu_P=157 + SS=33.1, z=1.64, sigma_P=20.1) | gap 18, MOQ 60 binds | wait: +2.60u short ($3.90) >= $1.20 holding saved -> order
+d050 2025-02-20 SKU-B  HOLD     0  IP=152 >= S=122.9 (mu_P=108 + SS=14.9) | 11.3 days of cover
+d050 2025-02-20 SKU-C  ORDER   24  IP=41 < S=51.5 (mu_P=34.2 + SS=17.3, z=2.05, sigma_P=8.4) | gap 11, MOQ 24 binds | wait: +0.58u short ($23.07) >= $9.60 holding saved -> order
+d051 2025-02-21 SKU-A  ORDER   60  IP=180 < S=195.8 (mu_P=162 + SS=33.9, z=1.64, sigma_P=20.6) | gap 16, MOQ 60 binds | wait: +2.15u short ($3.23) >= $1.20 holding saved -> order
+d051 2025-02-21 SKU-B  HOLD     0  IP=133 >= S=128.0 (mu_P=112 + SS=15.6) | 9.5 days of cover
+d051 2025-02-21 SKU-C  HOLD     0  IP=65 >= S=48.5 (mu_P=30.8 + SS=17.7) | 23.3 days of cover
+d052 2025-02-22 SKU-A  HOLD     0  IP=197 >= S=195.6 (mu_P=163 + SS=32.7) | 4.8 days of cover
+d052 2025-02-22 SKU-B  ORDER  120  IP=119 < S=127.8 (mu_P=112 + SS=15.5, z=2.05, sigma_P=7.5) | gap 9, MOQ 120 binds | wait: +0.78u short ($19.52) >= $12.00 holding saved -> order
+d052 2025-02-22 SKU-C  HOLD     0  IP=65 >= S=45.7 (mu_P=27.7 + SS=18.1) | 25.8 days of cover
+d053 2025-02-23 SKU-A  ORDER   60  IP=152 < S=197.1 (mu_P=165 + SS=32.5, z=1.64, sigma_P=19.8) | gap 46, MOQ 60 binds | wait: +15.40u short ($23.10) >= $1.20 holding saved -> order
+d053 2025-02-23 SKU-B  HOLD     0  IP=223 >= S=129.5 (mu_P=114 + SS=15.6) | 15.7 days of cover
+d053 2025-02-23 SKU-C  HOLD     0  IP=65 >= S=43.3 (mu_P=24.9 + SS=18.4) | 28.7 days of cover
+d054 2025-02-24 SKU-A  ORDER   60  IP=173 < S=196.2 (mu_P=164 + SS=32.5, z=1.64, sigma_P=19.7) | gap 24, MOQ 60 binds | wait: +4.09u short ($6.13) >= $1.20 holding saved -> order
+d054 2025-02-24 SKU-B  HOLD     0  IP=208 >= S=130.2 (mu_P=115 + SS=15.6) | 14.5 days of cover
+d054 2025-02-24 SKU-C  HOLD     0  IP=63 >= S=43.0 (mu_P=24.6 + SS=18.3) | 28.1 days of cover
+d055 2025-02-25 SKU-A  HOLD     0  IP=204 >= S=189.0 (mu_P=159 + SS=30) | 5.1 days of cover
+d055 2025-02-25 SKU-B  HOLD     0  IP=194 >= S=129.9 (mu_P=114 + SS=15.6) | 13.6 days of cover
+d055 2025-02-25 SKU-C  HOLD     0  IP=61 >= S=42.6 (mu_P=24.4 + SS=18.3) | 27.5 days of cover
+d056 2025-02-26 SKU-A  ORDER   60  IP=168 < S=187.3 (mu_P=157 + SS=29.8, z=1.64, sigma_P=18.1) | gap 20, MOQ 60 binds | wait: +3.15u short ($4.73) >= $1.20 holding saved -> order
+d056 2025-02-26 SKU-B  HOLD     0  IP=180 >= S=129.6 (mu_P=114 + SS=15.5) | 12.6 days of cover
+d056 2025-02-26 SKU-C  HOLD     0  IP=60 >= S=41.3 (mu_P=23 + SS=18.3) | 28.7 days of cover
+d057 2025-02-27 SKU-A  HOLD     0  IP=188 >= S=187.4 (mu_P=158 + SS=29.7) | 4.8 days of cover
+d057 2025-02-27 SKU-B  HOLD     0  IP=162 >= S=133.1 (mu_P=117 + SS=16.1) | 11.1 days of cover
+d057 2025-02-27 SKU-C  HOLD     0  IP=60 >= S=38.7 (mu_P=20.7 + SS=18) | 31.9 days of cover
+d058 2025-02-28 SKU-A  ORDER   60  IP=136 < S=192.5 (mu_P=163 + SS=29.7, z=1.64, sigma_P=18.1) | gap 57, MOQ 60 binds | wait: +25.71u short ($38.56) >= $1.20 holding saved -> order
+d058 2025-02-28 SKU-B  HOLD     0  IP=147 >= S=133.4 (mu_P=117 + SS=16.1) | 10.0 days of cover
+d058 2025-02-28 SKU-C  HOLD     0  IP=60 >= S=35.6 (mu_P=18.6 + SS=17) | 35.4 days of cover
+d059 2025-03-01 SKU-A  ORDER   64  IP=138 < S=201.2 (mu_P=170 + SS=31.5, z=1.64, sigma_P=19.1) | gap 64 | wait: +29.48u short ($44.23) >= $1.28 holding saved -> order
+d059 2025-03-01 SKU-B  DEFER    0  IP=132 < S=133.4 (mu_P=118 + SS=15.8, z=2.05, sigma_P=7.7) | gap 2, MOQ 120 binds | wait: +0.09u short ($2.28) < $12.00 holding saved, CSL_wait 0.969 >= floor 0.960 -> defer
+d059 2025-03-01 SKU-C  HOLD     0  IP=60 >= S=33.9 (mu_P=16.8 + SS=17.1) | 39.3 days of cover
+d060 2025-03-02 SKU-A  ORDER   60  IP=162 < S=200.1 (mu_P=169 + SS=31.4, z=1.64, sigma_P=19.1) | gap 39, MOQ 60 binds | wait: +11.35u short ($17.03) >= $1.20 holding saved -> order
+d060 2025-03-02 SKU-B  ORDER  120  IP=116 < S=134.5 (mu_P=119 + SS=15.8, z=2.05, sigma_P=7.7) | gap 19, MOQ 120 binds | wait: +4.44u short ($111.05) >= $12.00 holding saved -> order
+d060 2025-03-02 SKU-C  HOLD     0  IP=60 >= S=32.0 (mu_P=15.1 + SS=16.9) | 43.7 days of cover
+d061 2025-03-03 SKU-A  ORDER   60  IP=185 < S=197.9 (mu_P=167 + SS=31.2, z=1.64, sigma_P=19.0) | gap 13, MOQ 60 binds | wait: +1.69u short ($2.53) >= $1.20 holding saved -> order
+d061 2025-03-03 SKU-B  HOLD     0  IP=216 >= S=138.0 (mu_P=123 + SS=15.2) | 14.1 days of cover
+d061 2025-03-03 SKU-C  HOLD     0  IP=54 >= S=38.0 (mu_P=20.2 + SS=17.8) | 29.4 days of cover
+d062 2025-03-04 SKU-A  HOLD     0  IP=218 >= S=192.5 (mu_P=161 + SS=31.7) | 5.4 days of cover
+d062 2025-03-04 SKU-B  ALERT       TS=+12.49 beyond 3 sd of an unbiased forecast (+/-11.6), forecast running low -> alpha 0.10 -> 0.50
+d062 2025-03-04 SKU-B  HOLD     0  IP=198 >= S=140.4 (mu_P=125 + SS=15.5) | 12.7 days of cover
+d062 2025-03-04 SKU-C  HOLD     0  IP=54 >= S=36.0 (mu_P=18.2 + SS=17.8) | 32.7 days of cover
+d063 2025-03-05 SKU-A  ORDER   60  IP=185 < S=189.8 (mu_P=158 + SS=31.9, z=1.64, sigma_P=19.4) | gap 5, MOQ 60 binds | wait: +0.72u short ($1.08) < $1.20 holding saved, but CSL_wait 0.919 < floor 0.930 -> order
+d063 2025-03-05 SKU-B  HOLD     0  IP=181 >= S=145.8 (mu_P=130 + SS=15.4) | 11.1 days of cover
+d063 2025-03-05 SKU-C  HOLD     0  IP=54 >= S=34.2 (mu_P=16.4 + SS=17.9) | 36.3 days of cover
+d064 2025-03-06 SKU-A  HOLD     0  IP=212 >= S=187.5 (mu_P=155 + SS=32.2) | 5.5 days of cover
+d064 2025-03-06 SKU-B  HOLD     0  IP=166 >= S=140.5 (mu_P=125 + SS=15.3) | 10.6 days of cover
+d064 2025-03-06 SKU-C  HOLD     0  IP=54 >= S=31.6 (mu_P=14.7 + SS=16.9) | 40.4 days of cover
+d065 2025-03-07 SKU-A  ORDER   60  IP=168 < S=188.8 (mu_P=157 + SS=31.5, z=1.64, sigma_P=19.1) | gap 21, MOQ 60 binds | wait: +3.46u short ($5.19) >= $1.20 holding saved -> order
+d065 2025-03-07 SKU-B  HOLD     0  IP=154 >= S=125.0 (mu_P=111 + SS=14.4) | 11.1 days of cover
+d065 2025-03-07 SKU-C  HOLD     0  IP=52 >= S=32.2 (mu_P=15.4 + SS=16.8) | 37.0 days of cover
+d066 2025-03-08 SKU-A  ORDER   60  IP=179 < S=191.3 (mu_P=161 + SS=30, z=1.64, sigma_P=18.3) | gap 13, MOQ 60 binds | wait: +1.60u short ($2.40) >= $1.20 holding saved -> order
+d066 2025-03-08 SKU-B  ORDER  120  IP=135 < S=146.2 (mu_P=131 + SS=14.9, z=2.05, sigma_P=7.3) | gap 12, MOQ 120 binds | wait: +1.41u short ($35.35) >= $12.00 holding saved -> order
+d066 2025-03-08 SKU-C  HOLD     0  IP=52 >= S=30.7 (mu_P=13.9 + SS=16.8) | 41.1 days of cover
+d067 2025-03-09 SKU-A  ORDER   60  IP=189 < S=195.7 (mu_P=165 + SS=30.6, z=1.64, sigma_P=18.6) | gap 7, MOQ 60 binds | wait: +0.88u short ($1.32) >= $1.20 holding saved -> order
+d067 2025-03-09 SKU-B  HOLD     0  IP=236 >= S=156.8 (mu_P=142 + SS=15.2) | 13.3 days of cover
+d067 2025-03-09 SKU-C  HOLD     0  IP=46 >= S=36.9 (mu_P=19.1 + SS=17.7) | 26.5 days of cover
+d068 2025-03-10 SKU-A  HOLD     0  IP=206 >= S=196.3 (mu_P=166 + SS=30.5) | 5.0 days of cover
+d068 2025-03-10 SKU-B  HOLD     0  IP=220 >= S=150.1 (mu_P=135 + SS=15.3) | 13.1 days of cover
+d068 2025-03-10 SKU-C  HOLD     0  IP=42 >= S=38.9 (mu_P=21.6 + SS=17.3) | 21.4 days of cover
+d069 2025-03-11 SKU-A  ORDER   60  IP=184 < S=190.5 (mu_P=158 + SS=32.5, z=1.64, sigma_P=19.7) | gap 7, MOQ 60 binds | wait: +0.87u short ($1.30) >= $1.20 holding saved -> order
+d069 2025-03-11 SKU-B  HOLD     0  IP=202 >= S=154.0 (mu_P=139 + SS=14.6) | 11.6 days of cover
+d069 2025-03-11 SKU-C  HOLD     0  IP=42 >= S=36.4 (mu_P=19.4 + SS=17) | 23.8 days of cover
+d070 2025-03-12 SKU-A  HOLD     0  IP=217 >= S=186.3 (mu_P=153 + SS=33.3) | 5.7 days of cover
+d070 2025-03-12 SKU-B  HOLD     0  IP=183 >= S=159.7 (mu_P=146 + SS=14) | 10.0 days of cover
+d070 2025-03-12 SKU-C  HOLD     0  IP=42 >= S=34.4 (mu_P=17.5 + SS=16.9) | 26.4 days of cover
+d071 2025-03-13 SKU-A  ORDER   60  IP=173 < S=188.7 (mu_P=155 + SS=33.3, z=1.64, sigma_P=20.3) | gap 16, MOQ 60 binds | wait: +2.14u short ($3.21) >= $1.20 holding saved -> order
+d071 2025-03-13 SKU-B  HOLD     0  IP=164 >= S=162.7 (mu_P=149 + SS=13.9) | 8.8 days of cover
+d071 2025-03-13 SKU-C  HOLD     0  IP=38 >= S=37.2 (mu_P=20.1 + SS=17.1) | 20.7 days of cover
+d072 2025-03-14 SKU-A  HOLD     0  IP=197 >= S=186.9 (mu_P=154 + SS=32.7) | 5.1 days of cover
+d072 2025-03-14 SKU-B  ORDER  168  IP=119 < S=286.5 (mu_P=254 + SS=32.1, z=2.05, sigma_P=15.6) | gap 168 | wait: +31.80u short ($795.08) >= $16.80 holding saved -> order
+d072 2025-03-14 SKU-C  DEFER    0  IP=36 < S=36.4 (mu_P=20.3 + SS=16.1, z=2.05, sigma_P=7.8) | gap 1, MOQ 24 binds | wait: +0.04u short ($1.71) < $9.60 holding saved, CSL_wait 0.977 >= floor 0.960 -> defer
+d073 2025-03-15 SKU-A  ORDER   60  IP=150 < S=188.3 (mu_P=158 + SS=30.7, z=1.64, sigma_P=18.7) | gap 39, MOQ 60 binds | wait: +11.68u short ($17.53) >= $1.20 holding saved -> order
+d073 2025-03-15 SKU-B  HOLD     0  IP=272 >= S=224.2 (mu_P=187 + SS=37) | 11.6 days of cover
+d073 2025-03-15 SKU-C  HOLD     0  IP=36 >= S=34.4 (mu_P=18.3 + SS=16.1) | 21.6 days of cover
+d074 2025-03-16 SKU-A  ORDER   60  IP=166 < S=190.1 (mu_P=159 + SS=30.7, z=1.64, sigma_P=18.6) | gap 25, MOQ 60 binds | wait: +4.59u short ($6.89) >= $1.20 holding saved -> order
+d074 2025-03-16 SKU-B  HOLD     0  IP=251 >= S=214.6 (mu_P=178 + SS=37) | 11.3 days of cover
+d074 2025-03-16 SKU-C  DEFER    0  IP=34 < S=34.7 (mu_P=18.7 + SS=16.1, z=2.05, sigma_P=7.8) | gap 1, MOQ 24 binds | wait: +0.05u short ($1.81) < $9.60 holding saved, CSL_wait 0.975 >= floor 0.960 -> defer
+d075 2025-03-17 SKU-A  ORDER   60  IP=183 < S=191.4 (mu_P=161 + SS=30.7, z=1.64, sigma_P=18.7) | gap 9, MOQ 60 binds | wait: +1.06u short ($1.58) >= $1.20 holding saved -> order
+d075 2025-03-17 SKU-B  HOLD     0  IP=238 >= S=179.1 (mu_P=141 + SS=38.3) | 13.5 days of cover
+d075 2025-03-17 SKU-C  ORDER   24  IP=28 < S=39.5 (mu_P=23.4 + SS=16.1, z=2.05, sigma_P=7.9) | gap 12, MOQ 24 binds | wait: +0.60u short ($24.07) >= $9.60 holding saved -> order
+d076 2025-03-18 SKU-A  HOLD     0  IP=209 >= S=188.7 (mu_P=158 + SS=30.5) | 5.3 days of cover
+d076 2025-03-18 SKU-B  ORDER  120  IP=193 < S=299.1 (mu_P=250 + SS=48.7, z=2.05, sigma_P=23.7) | gap 107, MOQ 120 binds | wait: +30.06u short ($751.38) >= $12.00 holding saved -> order
+d076 2025-03-18 SKU-C  HOLD     0  IP=49 >= S=40.1 (mu_P=24.4 + SS=15.8) | 22.1 days of cover
+d077 2025-03-19 SKU-A  ORDER   60  IP=179 < S=184.7 (mu_P=154 + SS=30.3, z=1.64, sigma_P=18.4) | gap 6, MOQ 60 binds | wait: +0.78u short ($1.16) < $1.20 holding saved, but CSL_wait 0.909 < floor 0.930 -> order
+d077 2025-03-19 SKU-B  HOLD     0  IP=294 >= S=251.7 (mu_P=201 + SS=50.5) | 11.7 days of cover
+d077 2025-03-19 SKU-C  HOLD     0  IP=49 >= S=37.6 (mu_P=21.9 + SS=15.7) | 24.6 days of cover
+d078 2025-03-20 SKU-A  HOLD     0  IP=201 >= S=183.1 (mu_P=154 + SS=29) | 5.2 days of cover
+d078 2025-03-20 SKU-B  HOLD     0  IP=274 >= S=231.4 (mu_P=181 + SS=50.8) | 12.1 days of cover
+d078 2025-03-20 SKU-C  HOLD     0  IP=49 >= S=35.1 (mu_P=19.7 + SS=15.4) | 27.3 days of cover
+d079 2025-03-21 SKU-A  ORDER   60  IP=155 < S=185.4 (mu_P=157 + SS=28.3, z=1.64, sigma_P=17.2) | gap 31, MOQ 60 binds | wait: +7.94u short ($11.91) >= $1.20 holding saved -> order
+d079 2025-03-21 SKU-B  HOLD     0  IP=251 >= S=232.7 (mu_P=182 + SS=50.4) | 11.0 days of cover
+d079 2025-03-21 SKU-C  HOLD     0  IP=44 >= S=38.7 (mu_P=23.3 + SS=15.4) | 20.8 days of cover
+d080 2025-03-22 SKU-A  ORDER   60  IP=156 < S=195.8 (mu_P=165 + SS=30.8, z=1.64, sigma_P=18.7) | gap 40, MOQ 60 binds | wait: +12.68u short ($19.02) >= $1.20 holding saved -> order
+d080 2025-03-22 SKU-B  DEFER    0  IP=229 < S=229.6 (mu_P=179 + SS=50.4, z=2.05, sigma_P=24.6) | gap 1, MOQ 120 binds | wait: +0.19u short ($4.68) < $12.00 holding saved, CSL_wait 0.979 >= floor 0.960 -> defer
+d080 2025-03-22 SKU-C  HOLD     0  IP=44 >= S=36.2 (mu_P=20.9 + SS=15.2) | 23.1 days of cover
+d081 2025-03-23 SKU-A  ORDER   60  IP=174 < S=196.0 (mu_P=165 + SS=30.6, z=1.64, sigma_P=18.6) | gap 22, MOQ 60 binds | wait: +3.88u short ($5.82) >= $1.20 holding saved -> order
+d081 2025-03-23 SKU-B  HOLD     0  IP=215 >= S=196.8 (mu_P=146 + SS=51.2) | 11.8 days of cover
+d081 2025-03-23 SKU-C  HOLD     0  IP=44 >= S=33.9 (mu_P=18.8 + SS=15.1) | 25.7 days of cover
+d082 2025-03-24 SKU-A  HOLD     0  IP=200 >= S=193.3 (mu_P=162 + SS=31) | 4.9 days of cover
+d082 2025-03-24 SKU-B  HOLD     0  IP=203 >= S=172.5 (mu_P=121 + SS=51.7) | 13.4 days of cover
+d082 2025-03-24 SKU-C  HOLD     0  IP=44 >= S=32.2 (mu_P=17 + SS=15.2) | 28.5 days of cover
+d083 2025-03-25 SKU-A  ORDER   60  IP=168 < S=189.5 (mu_P=159 + SS=30.5, z=1.64, sigma_P=18.6) | gap 22, MOQ 60 binds | wait: +3.74u short ($5.60) >= $1.20 holding saved -> order
+d083 2025-03-25 SKU-B  ORDER  120  IP=183 < S=192.3 (mu_P=140 + SS=51.9, z=2.05, sigma_P=25.3) | gap 10, MOQ 120 binds | wait: +0.44u short ($10.97) < $12.00 holding saved, but CSL_wait 0.954 < floor 0.960 -> order
+d083 2025-03-25 SKU-C  HOLD     0  IP=44 >= S=30.6 (mu_P=15.3 + SS=15.4) | 31.7 days of cover
+d084 2025-03-26 SKU-A  HOLD     0  IP=197 >= S=186.4 (mu_P=155 + SS=30.9) | 5.1 days of cover
+d084 2025-03-26 SKU-B  ORDER  120  IP=262 < S=292.2 (mu_P=234 + SS=58, z=2.05, sigma_P=28.2) | gap 31, MOQ 120 binds | wait: +2.28u short ($56.91) >= $12.00 holding saved -> order
+d084 2025-03-26 SKU-C  HOLD     0  IP=41 >= S=32.5 (mu_P=17 + SS=15.4) | 26.5 days of cover
+d085 2025-03-27 SKU-A  ORDER   60  IP=158 < S=186.4 (mu_P=156 + SS=30.9, z=1.64, sigma_P=18.8) | gap 29, MOQ 60 binds | wait: +6.29u short ($9.43) >= $1.20 holding saved -> order
+d085 2025-03-27 SKU-B  HOLD     0  IP=364 >= S=248.2 (mu_P=189 + SS=59.1) | 15.4 days of cover
+d085 2025-03-27 SKU-C  HOLD     0  IP=41 >= S=30.6 (mu_P=15.3 + SS=15.3) | 29.4 days of cover
+d086 2025-03-28 SKU-A  ORDER   60  IP=177 < S=186.3 (mu_P=156 + SS=29.9, z=1.64, sigma_P=18.2) | gap 10, MOQ 60 binds | wait: +1.17u short ($1.75) >= $1.20 holding saved -> order
+d086 2025-03-28 SKU-B  HOLD     0  IP=344 >= S=233.8 (mu_P=175 + SS=59.3) | 15.8 days of cover
+d086 2025-03-28 SKU-C  HOLD     0  IP=36 >= S=35.1 (mu_P=19.3 + SS=15.8) | 20.5 days of cover
+d087 2025-03-29 SKU-A  DEFER    0  IP=187 < S=189.5 (mu_P=161 + SS=28.8, z=1.64, sigma_P=17.5) | gap 3, MOQ 60 binds | wait: +0.51u short ($0.76) < $1.20 holding saved, CSL_wait 0.934 >= floor 0.930 -> defer
+d087 2025-03-29 SKU-B  HOLD     0  IP=331 >= S=199.3 (mu_P=139 + SS=60.1) | 19.0 days of cover
+d087 2025-03-29 SKU-C  HOLD     0  IP=36 >= S=33.2 (mu_P=17.4 + SS=15.8) | 22.8 days of cover
+d088 2025-03-30 SKU-A  ORDER   60  IP=145 < S=190.2 (mu_P=161 + SS=28.7, z=1.64, sigma_P=17.5) | gap 46, MOQ 60 binds | wait: +17.70u short ($26.56) >= $1.20 holding saved -> order
+d088 2025-03-30 SKU-B  HOLD     0  IP=319 >= S=178.0 (mu_P=118 + SS=60.3) | 21.7 days of cover
+d088 2025-03-30 SKU-C  ORDER   24  IP=31 < S=37.4 (mu_P=21.1 + SS=16.3, z=2.05, sigma_P=7.9) | gap 7, MOQ 24 binds | wait: +0.21u short ($8.54) < $9.60 holding saved, but CSL_wait 0.893 < floor 0.960 -> order
+d089 2025-03-31 SKU-A  ORDER   60  IP=162 < S=191.1 (mu_P=163 + SS=28.6, z=1.64, sigma_P=17.4) | gap 30, MOQ 60 binds | wait: +7.17u short ($10.76) >= $1.20 holding saved -> order
+d089 2025-03-31 SKU-B  HOLD     0  IP=300 >= S=195.1 (mu_P=135 + SS=60.2) | 17.8 days of cover
+d089 2025-03-31 SKU-C  HOLD     0  IP=55 >= S=34.4 (mu_P=19 + SS=15.4) | 31.8 days of cover
+d090 2025-04-01 SKU-A  HOLD     0  IP=188 >= S=187.3 (mu_P=160 + SS=27.4) | 4.7 days of cover
+d090 2025-04-01 SKU-B  HOLD     0  IP=282 >= S=199.6 (mu_P=139 + SS=60.2) | 16.2 days of cover
+d090 2025-04-01 SKU-C  HOLD     0  IP=55 >= S=32.5 (mu_P=17.1 + SS=15.4) | 35.3 days of cover
+d091 2025-04-02 SKU-A  ORDER   60  IP=156 < S=184.2 (mu_P=157 + SS=27.5, z=1.64, sigma_P=16.7) | gap 29, MOQ 60 binds | wait: +6.99u short ($10.49) >= $1.20 holding saved -> order
+d091 2025-04-02 SKU-B  HOLD     0  IP=265 >= S=197.9 (mu_P=138 + SS=60.2) | 15.4 days of cover
+d091 2025-04-02 SKU-C  HOLD     0  IP=55 >= S=30.8 (mu_P=15.4 + SS=15.4) | 39.3 days of cover
+d092 2025-04-03 SKU-A  ORDER   60  IP=172 < S=186.0 (mu_P=159 + SS=27.4, z=1.64, sigma_P=16.6) | gap 14, MOQ 60 binds | wait: +1.98u short ($2.97) >= $1.20 holding saved -> order
+d092 2025-04-03 SKU-B  HOLD     0  IP=247 >= S=201.0 (mu_P=141 + SS=60.2) | 14.0 days of cover
+d092 2025-04-03 SKU-C  HOLD     0  IP=55 >= S=29.2 (mu_P=13.9 + SS=15.3) | 43.6 days of cover
+d093 2025-04-04 SKU-A  DEFER    0  IP=186 < S=188.6 (mu_P=161 + SS=27.5, z=1.64, sigma_P=16.7) | gap 3, MOQ 60 binds | wait: +0.50u short ($0.75) < $1.20 holding saved, CSL_wait 0.932 >= floor 0.930 -> defer
+d093 2025-04-04 SKU-B  HOLD     0  IP=231 >= S=194.5 (mu_P=134 + SS=60.1) | 13.7 days of cover
+d093 2025-04-04 SKU-C  HOLD     0  IP=55 >= S=27.9 (mu_P=12.5 + SS=15.4) | 48.5 days of cover
+d094 2025-04-05 SKU-A  ORDER   66  IP=130 < S=196.0 (mu_P=167 + SS=28.5, z=1.64, sigma_P=17.3) | gap 66 | wait: +33.49u short ($50.23) >= $1.32 holding saved -> order
+d094 2025-04-05 SKU-B  ALERT       TS=-0.30 within 1 sd (+/-1.8) for 7 days -> alpha back to 0.10
+d094 2025-04-05 SKU-B  HOLD     0  IP=217 >= S=183.1 (mu_P=123 + SS=59.9) | 14.1 days of cover
+d094 2025-04-05 SKU-C  HOLD     0  IP=54 >= S=27.6 (mu_P=12.3 + SS=15.3) | 48.2 days of cover
+d095 2025-04-06 SKU-A  ORDER   60  IP=152 < S=196.2 (mu_P=168 + SS=27.9, z=1.64, sigma_P=17.0) | gap 45, MOQ 60 binds | wait: +17.58u short ($26.36) >= $1.20 holding saved -> order
+d095 2025-04-06 SKU-B  HOLD     0  IP=199 >= S=185.2 (mu_P=125 + SS=59.9) | 12.7 days of cover
+d095 2025-04-06 SKU-C  HOLD     0  IP=54 >= S=25.2 (mu_P=11.1 + SS=14.1) | 53.5 days of cover
+d096 2025-04-07 SKU-A  ORDER   60  IP=173 < S=195.0 (mu_P=167 + SS=28, z=1.64, sigma_P=17.0) | gap 23, MOQ 60 binds | wait: +4.22u short ($6.33) >= $1.20 holding saved -> order
+d096 2025-04-07 SKU-B  DEFER    0  IP=184 < S=184.6 (mu_P=125 + SS=59.8, z=2.05, sigma_P=29.1) | gap 1, MOQ 120 binds | wait: +0.20u short ($5.04) < $12.00 holding saved, CSL_wait 0.979 >= floor 0.960 -> defer
+d096 2025-04-07 SKU-C  HOLD     0  IP=54 >= S=23.8 (mu_P=10 + SS=13.9) | 59.5 days of cover
+d097 2025-04-08 SKU-A  HOLD     0  IP=210 >= S=187.3 (mu_P=160 + SS=27.8) | 5.3 days of cover
+d097 2025-04-08 SKU-B  ORDER  120  IP=170 < S=183.3 (mu_P=123 + SS=59.9, z=2.05, sigma_P=29.1) | gap 14, MOQ 120 binds | wait: +0.58u short ($14.39) >= $12.00 holding saved -> order
+d097 2025-04-08 SKU-C  HOLD     0  IP=48 >= S=30.7 (mu_P=15.6 + SS=15.1) | 33.9 days of cover
+d098 2025-04-09 SKU-A  ORDER   60  IP=176 < S=184.1 (mu_P=157 + SS=26.9, z=1.64, sigma_P=16.4) | gap 9, MOQ 60 binds | wait: +1.02u short ($1.53) >= $1.20 holding saved -> order
+d098 2025-04-09 SKU-B  HOLD     0  IP=270 >= S=187.2 (mu_P=127 + SS=60) | 17.0 days of cover
+d098 2025-04-09 SKU-C  HOLD     0  IP=43 >= S=35.2 (mu_P=19.5 + SS=15.6) | 24.2 days of cover
+d099 2025-04-10 SKU-A  HOLD     0  IP=206 >= S=180.8 (mu_P=153 + SS=27.3) | 5.4 days of cover
+d099 2025-04-10 SKU-B  HOLD     0  IP=252 >= S=188.9 (mu_P=129 + SS=60.1) | 15.6 days of cover
+d099 2025-04-10 SKU-C  HOLD     0  IP=40 >= S=36.3 (mu_P=20.9 + SS=15.4) | 21.1 days of cover
+d100 2025-04-11 SKU-A  ORDER   60  IP=170 < S=179.8 (mu_P=153 + SS=27.3, z=1.64, sigma_P=16.6) | gap 10, MOQ 60 binds | wait: +1.25u short ($1.87) >= $1.20 holding saved -> order
+d100 2025-04-11 SKU-B  ORDER  120  IP=204 < S=217.6 (mu_P=154 + SS=63.2, z=2.05, sigma_P=30.8) | gap 14, MOQ 120 binds | wait: +0.61u short ($15.34) >= $12.00 holding saved -> order
+d100 2025-04-11 SKU-C  HOLD     0  IP=40 >= S=34.4 (mu_P=18.8 + SS=15.6) | 23.4 days of cover
+d101 2025-04-12 SKU-A  DEFER    0  IP=182 < S=183.9 (mu_P=156 + SS=27.5, z=1.64, sigma_P=16.7) | gap 2, MOQ 60 binds | wait: +0.46u short ($0.69) < $1.20 holding saved, CSL_wait 0.937 >= floor 0.930 -> defer
+d101 2025-04-12 SKU-B  HOLD     0  IP=308 >= S=212.3 (mu_P=152 + SS=60.6) | 16.2 days of cover
+d101 2025-04-12 SKU-C  HOLD     0  IP=40 >= S=32.5 (mu_P=16.9 + SS=15.6) | 26.0 days of cover
+d102 2025-04-13 SKU-A  ORDER   60  IP=143 < S=183.7 (mu_P=156 + SS=27.3, z=1.64, sigma_P=16.6) | gap 41, MOQ 60 binds | wait: +15.18u short ($22.77) >= $1.20 holding saved -> order
+d102 2025-04-13 SKU-B  HOLD     0  IP=291 >= S=210.7 (mu_P=150 + SS=60.6) | 15.5 days of cover
+d102 2025-04-13 SKU-C  HOLD     0  IP=40 >= S=30.9 (mu_P=15.2 + SS=15.7) | 28.9 days of cover
+d103 2025-04-14 SKU-A  ORDER   60  IP=166 < S=182.9 (mu_P=156 + SS=27.3, z=1.64, sigma_P=16.6) | gap 17, MOQ 60 binds | wait: +2.67u short ($4.01) >= $1.20 holding saved -> order
+d103 2025-04-14 SKU-B  HOLD     0  IP=275 >= S=207.7 (mu_P=148 + SS=59.8) | 14.9 days of cover
+d103 2025-04-14 SKU-C  HOLD     0  IP=40 >= S=28.5 (mu_P=13.7 + SS=14.8) | 32.1 days of cover
+d104 2025-04-15 SKU-A  ORDER   60  IP=182 < S=184.8 (mu_P=158 + SS=27.2, z=1.64, sigma_P=16.5) | gap 3, MOQ 60 binds | wait: +0.51u short ($0.77) < $1.20 holding saved, but CSL_wait 0.930 < floor 0.930 -> order
+d104 2025-04-15 SKU-B  HOLD     0  IP=230 >= S=228.4 (mu_P=169 + SS=59.3) | 10.9 days of cover
+d104 2025-04-15 SKU-C  HOLD     0  IP=40 >= S=27.2 (mu_P=12.3 + SS=14.8) | 35.7 days of cover
+d105 2025-04-16 SKU-A  HOLD     0  IP=215 >= S=180.3 (mu_P=153 + SS=27.6) | 5.6 days of cover
+d105 2025-04-16 SKU-B  ORDER  120  IP=210 < S=226.0 (mu_P=168 + SS=57.7, z=2.05, sigma_P=28.1) | gap 16, MOQ 120 binds | wait: +0.78u short ($19.42) >= $12.00 holding saved -> order
+d105 2025-04-16 SKU-C  HOLD     0  IP=40 >= S=25.7 (mu_P=11.1 + SS=14.6) | 39.7 days of cover
+d106 2025-04-17 SKU-A  DEFER    0  IP=179 < S=179.5 (mu_P=152 + SS=27.7, z=1.64, sigma_P=16.8) | gap 1, MOQ 60 binds | wait: +0.38u short ($0.56) < $1.20 holding saved, CSL_wait 0.947 >= floor 0.930 -> defer
+d106 2025-04-17 SKU-B  HOLD     0  IP=313 >= S=222.6 (mu_P=165 + SS=57.6) | 15.2 days of cover
+d106 2025-04-17 SKU-C  HOLD     0  IP=40 >= S=24.5 (mu_P=10 + SS=14.5) | 44.1 days of cover
+d107 2025-04-18 SKU-A  ORDER   60  IP=130 < S=184.3 (mu_P=156 + SS=28.1, z=1.64, sigma_P=17.1) | gap 55, MOQ 60 binds | wait: +25.10u short ($37.65) >= $1.20 holding saved -> order
+d107 2025-04-18 SKU-B  HOLD     0  IP=293 >= S=222.1 (mu_P=164 + SS=57.6) | 14.2 days of cover
+d107 2025-04-18 SKU-C  HOLD     0  IP=40 >= S=22.9 (mu_P=9 + SS=13.9) | 49.0 days of cover
+d108 2025-04-19 SKU-A  ORDER   60  IP=137 < S=188.6 (mu_P=162 + SS=26.8, z=1.64, sigma_P=16.3) | gap 52, MOQ 60 binds | wait: +24.30u short ($36.45) >= $1.20 holding saved -> order
+d108 2025-04-19 SKU-B  HOLD     0  IP=273 >= S=221.7 (mu_P=164 + SS=57.6) | 13.3 days of cover
+d108 2025-04-19 SKU-C  HOLD     0  IP=39 >= S=22.8 (mu_P=9.2 + SS=13.6) | 46.7 days of cover
+d109 2025-04-20 SKU-A  ORDER   60  IP=154 < S=189.6 (mu_P=163 + SS=26.8, z=1.64, sigma_P=16.3) | gap 36, MOQ 60 binds | wait: +11.78u short ($17.67) >= $1.20 holding saved -> order
+d109 2025-04-20 SKU-B  HOLD     0  IP=248 >= S=224.8 (mu_P=168 + SS=57.1) | 11.8 days of cover
+d109 2025-04-20 SKU-C  HOLD     0  IP=39 >= S=21.7 (mu_P=8.3 + SS=13.5) | 51.9 days of cover
+d110 2025-04-21 SKU-A  ORDER   60  IP=180 < S=186.9 (mu_P=160 + SS=26.7, z=1.64, sigma_P=16.3) | gap 7, MOQ 60 binds | wait: +0.87u short ($1.31) >= $1.20 holding saved -> order
+d110 2025-04-21 SKU-B  HOLD     0  IP=233 >= S=220.0 (mu_P=163 + SS=57.1) | 11.4 days of cover
+d110 2025-04-21 SKU-C  HOLD     0  IP=39 >= S=20.8 (mu_P=7.4 + SS=13.3) | 57.6 days of cover
+d111 2025-04-22 SKU-A  HOLD     0  IP=206 >= S=184.2 (mu_P=158 + SS=26.5) | 5.2 days of cover
+d111 2025-04-22 SKU-B  ORDER  120  IP=211 < S=221.0 (mu_P=164 + SS=56.9, z=2.05, sigma_P=27.7) | gap 11, MOQ 120 binds | wait: +0.48u short ($11.99) < $12.00 holding saved, but CSL_wait 0.955 < floor 0.960 -> order
+d111 2025-04-22 SKU-C  HOLD     0  IP=34 >= S=26.5 (mu_P=12.2 + SS=14.3) | 30.7 days of cover
+d112 2025-04-23 SKU-A  ORDER   60  IP=171 < S=182.0 (mu_P=156 + SS=26, z=1.64, sigma_P=15.8) | gap 11, MOQ 60 binds | wait: +1.45u short ($2.17) >= $1.20 holding saved -> order
+d112 2025-04-23 SKU-B  HOLD     0  IP=312 >= S=213.7 (mu_P=163 + SS=50.7) | 15.3 days of cover
+d112 2025-04-23 SKU-C  HOLD     0  IP=34 >= S=25.2 (mu_P=11 + SS=14.2) | 34.1 days of cover
+d113 2025-04-24 SKU-A  HOLD     0  IP=197 >= S=180.2 (mu_P=154 + SS=26.2) | 5.1 days of cover
+d113 2025-04-24 SKU-B  HOLD     0  IP=293 >= S=211.1 (mu_P=162 + SS=49.2) | 14.5 days of cover
+d113 2025-04-24 SKU-C  HOLD     0  IP=34 >= S=24.0 (mu_P=9.9 + SS=14.1) | 37.9 days of cover
+d114 2025-04-25 SKU-A  ORDER   60  IP=150 < S=184.1 (mu_P=157 + SS=26.7, z=1.64, sigma_P=16.2) | gap 35, MOQ 60 binds | wait: +10.76u short ($16.14) >= $1.20 holding saved -> order
+d114 2025-04-25 SKU-B  HOLD     0  IP=278 >= S=207.1 (mu_P=158 + SS=49.4) | 14.1 days of cover
+d114 2025-04-25 SKU-C  HOLD     0  IP=34 >= S=22.3 (mu_P=8.9 + SS=13.4) | 42.1 days of cover
+d115 2025-04-26 SKU-A  ORDER   60  IP=160 < S=188.3 (mu_P=162 + SS=26.7, z=1.64, sigma_P=16.2) | gap 29, MOQ 60 binds | wait: +7.30u short ($10.96) >= $1.20 holding saved -> order
+d115 2025-04-26 SKU-B  ALERT       TS=+12.63 beyond 3 sd of an unbiased forecast (+/-11.6), forecast running low -> alpha 0.10 -> 0.50
+d115 2025-04-26 SKU-B  DEFER    0  IP=230 < S=237.8 (mu_P=180 + SS=57.5, z=2.05, sigma_P=28.0) | gap 8, MOQ 120 binds | wait: +0.40u short ($10.10) < $12.00 holding saved, CSL_wait 0.962 >= floor 0.960 -> defer
+d115 2025-04-26 SKU-C  HOLD     0  IP=34 >= S=21.3 (mu_P=8 + SS=13.3) | 46.7 days of cover
+d116 2025-04-27 SKU-A  ORDER   60  IP=182 < S=187.4 (mu_P=161 + SS=26.7, z=1.64, sigma_P=16.2) | gap 6, MOQ 60 binds | wait: +0.72u short ($1.08) < $1.20 holding saved, but CSL_wait 0.906 < floor 0.930 -> order
+d116 2025-04-27 SKU-B  ORDER  120  IP=208 < S=235.4 (mu_P=178 + SS=57.2, z=2.05, sigma_P=27.9) | gap 28, MOQ 120 binds | wait: +1.80u short ($45.06) >= $12.00 holding saved -> order
+d116 2025-04-27 SKU-C  HOLD     0  IP=34 >= S=19.7 (mu_P=7.2 + SS=12.5) | 51.9 days of cover
+d117 2025-04-28 SKU-A  HOLD     0  IP=205 >= S=186.1 (mu_P=159 + SS=26.7) | 5.1 days of cover
+d117 2025-04-28 SKU-B  HOLD     0  IP=308 >= S=226.2 (mu_P=169 + SS=57.1) | 14.6 days of cover
+d117 2025-04-28 SKU-C  HOLD     0  IP=34 >= S=18.8 (mu_P=6.5 + SS=12.3) | 57.7 days of cover
+d118 2025-04-29 SKU-A  DEFER    0  IP=180 < S=181.4 (mu_P=153 + SS=28, z=1.64, sigma_P=17.0) | gap 2, MOQ 60 binds | wait: +0.43u short ($0.65) < $1.20 holding saved, CSL_wait 0.941 >= floor 0.930 -> defer
+d118 2025-04-29 SKU-B  HOLD     0  IP=288 >= S=221.6 (mu_P=165 + SS=57.1) | 14.0 days of cover
+d118 2025-04-29 SKU-C  HOLD     0  IP=34 >= S=18.0 (mu_P=5.8 + SS=12.1) | 64.1 days of cover
+d119 2025-04-30 SKU-A  ORDER   60  IP=142 < S=180.8 (mu_P=153 + SS=27.5, z=1.64, sigma_P=16.7) | gap 39, MOQ 60 binds | wait: +13.63u short ($20.44) >= $1.20 holding saved -> order
+d119 2025-04-30 SKU-B  HOLD     0  IP=269 >= S=215.4 (mu_P=158 + SS=57.1) | 13.6 days of cover
+d119 2025-04-30 SKU-C  HOLD     0  IP=31 >= S=20.9 (mu_P=8.6 + SS=12.4) | 39.9 days of cover
+
+SKU      fill    CSL so_days  short  POs defer alert   holding  stockout  relevant
+----------------------------------------------------------------------------------
+SKU-A   0.999  0.983       1      3   60     7     0    108.24      4.50    112.74
+SKU-B   0.960  0.714       6     67   15     4     3    727.50   1675.00   2402.50
+SKU-C   0.951  0.833       2      7    6     4     0   1032.40    280.00   1312.40
+TOTAL   0.986  0.924       9     77   81    15     3   1868.14   1959.50   3827.64

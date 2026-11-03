@@ -1,0 +1,4 @@
+sku,unit_cost,holding_cost_per_day,stockout_cost,lead_time_days,min_order_qty,service_level
+SKU-A,4.0,0.02,1.5,3,60,0.95
+SKU-B,25.0,0.1,25.0,7,120,0.98
+SKU-C,80.0,0.4,40.0,10,24,0.98
