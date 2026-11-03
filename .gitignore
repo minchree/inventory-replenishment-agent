@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+# local copy of the build prompt (the committed copy is docs/BRIEF.md)
+inventory-agent-build-prompt.md
+# course rubric stays local
+docs/rubric.docx
+# local Claude Code notes (contain machine paths)
+CLAUDE.md

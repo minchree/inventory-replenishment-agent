@@ -1,0 +1,10 @@
+[project]
+name = "replenish"
+version = "1.0.0"
+description = "Inventory replenishment agent: EWMA forecast, service-level safety stock, cost-priced defer, daily simulation."
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.0", "matplotlib>=3.7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
